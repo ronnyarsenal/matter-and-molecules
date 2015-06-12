@@ -99,10 +99,12 @@ public class Oxygen {
 	
 	    System.out.println("H2O has an automic mass of 18");
 	    System.out.println("The components of H20are broken into: ");
-		  System.out.println("");
+            System.out.println("");
 		
 		//start of both threads
 		createOxygen oxygenMolecule = new createOxygen();
 		oxygenMolecule.start();
 		createHydrogen hydrogenMolecule = new createHydrogen();
 		hydrogenMolecule.start();
+	}
+}
